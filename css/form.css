@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.header {
+    padding: 1em 2em;
+    text-align: center;
+}
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.group_control {
+    padding: .25em .5em;
+}
+
+.card_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    flex: 1;
+    height: 1px;
+    margin: 10px;
+    border: 1px solid gray;
+    background-color: grey;
+}
+
+.card_image {
+    width: 100px;
+    height: auto;
+}
+
+input[type='text'], input[type='date'] {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 12pt;
+    color: #555;
+}
+
+.exp, .cvv {
+    flex: 1;
+    margin-right: 8px;
+    box-sizing: border-box;
+}
+
+.cvv {
+    margin-right: 0;
+}
+
+.group_button {
+    text-align: right;
+    padding: 5px 10px;
+}
+
+button {
+    width: 90px;
+    padding: 12px;
+    cursor: pointer;
+}
