@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.header {
+    padding: 1em 2em;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    overflow-y: auto;
+    padding:  0 1em;
+}
+
+table {
+    width: 100%;
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 5px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tr, td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
